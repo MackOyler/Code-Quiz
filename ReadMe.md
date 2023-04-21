@@ -1,46 +1,30 @@
-# Project: Web APIs: Code Quiz
+# Project: Code Quiz
 
-  Deployable Link - > 
+## Live Deployment Link 
 
+## Development Team
+- [Mack Oyler](https://www.linkedin.com/in/mack-oyler/)
 
-## Table of Contents: 
-- [Project: Web APIs: Code Quiz](#project-web-apis-code-quiz)
-  - [Table of Contents:](#table-of-contents)
-  - [License:](#license)
-  - [Description:](#description)
-  - [Installation Instructions:](#installation-instructions)
-  - [Test Command:](#test-command)
-  - [Github:](#github)
-  - [My Email Address:](#my-email-address)
-  - [Other Contributors:](#other-contributors)
-  - [Images:](#images)
+## Learning Goals
 
-## License:
-[![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description:
-A typical coding assessment is a combination of multiple-choice questions and interactive coding challenges.
+A fun quiz to help learn about coding.
 
-## Installation Instructions: 
-Launch site in default browser.
+### User Story
+AS A coding boot camp student
+I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
+SO THAT I can gauge my progress compared to my peers
 
-## Test Command: 
-To test type Click "Start Quiz" and answer questions. into the terminal
-
-## Github: 
-Check out more projects on my Github at https://github.com/ReindeerCode
-
-## My Email Address:
-If you have any questions please feel free to email me at ReindeerCode@gmail.com
-
-## Other Contributors:
-None at this time.
-
-## Images:
-
-![Project Screenshot](./Assets/LaunchPage.png)
-![Project Screenshot](./Assets/AskQuestionExample.png)
-![Project Screenshot](./Assets/CorrectAnswerExample.png)
-![Project Screenshot](./Assets/WrongAnswerExample.png)
-![Project Screenshot](./Assets/FinishPageExample.png)
-![Project Screenshot](./Assets/HighScoreExample.png)
+### Acceptance Criteria
+GIVEN I am taking a code quiz
+WHEN I click the start button
+THEN a timer starts and I am presented with a question
+WHEN I answer a question
+THEN I am presented with another question
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock
+WHEN all questions are answered or the timer reaches 0
+THEN the game is over
+WHEN the game is over
+THEN I can save my initials and score
