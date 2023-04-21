@@ -1,6 +1,7 @@
 # Project: Code Quiz
 
 ## Live Deployment Link 
+[Code Quiz](https://mackoyler.github.io/Code-Quiz/)
 
 ## Development Team
 - [Mack Oyler](https://www.linkedin.com/in/mack-oyler/)
